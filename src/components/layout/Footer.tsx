@@ -15,13 +15,15 @@ export function Footer() {
         <div className="grid gap-12 md:grid-cols-3">
           {/* Logo & tagline */}
           <div>
-            <div className="relative mb-4 h-10 w-44">
-              <Image
-                src="/images/lomeli-logo.png"
-                alt="Lomeli Financial Group"
-                fill
-                className="object-contain brightness-0 invert"
-              />
+            <div className="mb-4 overflow-hidden rounded-md bg-white px-3 py-2 inline-block">
+              <div className="relative h-10 w-44">
+                <Image
+                  src="/images/lomeli-logo.png"
+                  alt="Lomeli Financial Group"
+                  fill
+                  className="object-contain"
+                />
+              </div>
             </div>
             <p className="text-sm text-white/60">{t("tagline")}</p>
           </div>
