@@ -21,7 +21,7 @@ export function SplashScreen({ isComplete }: SplashScreenProps) {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, ease: "easeOut" }}
           >
-            <div className="relative h-16 w-64 md:h-20 md:w-80">
+            <div className="relative h-28 w-[28rem] md:h-36 md:w-[36rem]">
               <Image
                 src="/images/lomeli-logo.png"
                 alt="Lomeli Financial Group"

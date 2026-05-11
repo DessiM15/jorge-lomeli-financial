@@ -46,7 +46,7 @@ export function Navbar() {
             e.preventDefault();
             handleClick(`#${SECTION_IDS.hero}`);
           }}
-          className="relative h-10 w-40"
+          className="relative h-14 w-56"
         >
           <Image
             src="/images/lomeli-logo.png"
