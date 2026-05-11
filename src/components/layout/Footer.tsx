@@ -15,7 +15,7 @@ export function Footer() {
         <div className="grid gap-12 md:grid-cols-3">
           {/* Logo & tagline */}
           <div>
-            <div className="relative mb-4 h-24 w-80">
+            <div className="relative mb-4 h-48 w-[40rem]">
               <Image
                 src="/images/lomeli-logo.png"
                 alt="Lomeli Financial Group"
