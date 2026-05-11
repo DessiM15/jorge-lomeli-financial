@@ -1,0 +1,109 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "whyUs": "Por Qu\u00e9 Nosotros",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "headline": "Asegurando Su Futuro Financiero",
+    "subtitle": "Orientaci\u00f3n experta en planificaci\u00f3n de jubilaci\u00f3n, estrategias fiscales y preservaci\u00f3n de patrimonio \u2014 adaptada a sus metas.",
+    "cta": "Agendar Consulta"
+  },
+  "services": {
+    "heading": "Nuestros Servicios",
+    "subheading": "Soluciones financieras integrales para cada etapa de la vida",
+    "retirement": {
+      "title": "Planificaci\u00f3n de Jubilaci\u00f3n",
+      "description": "Construya una estrategia de jubilaci\u00f3n personalizada que asegure la seguridad financiera y tranquilidad para sus a\u00f1os dorados."
+    },
+    "socialSecurity": {
+      "title": "Evaluaci\u00f3n del Seguro Social",
+      "description": "Maximice sus beneficios del Seguro Social con un an\u00e1lisis experto de sus opciones y estrategias \u00f3ptimas."
+    },
+    "taxStrategies": {
+      "title": "Estrategias Fiscales",
+      "description": "Reduzca su carga fiscal con planificaci\u00f3n proactiva y estrategias dise\u00f1adas para mantener m\u00e1s dinero en su bolsillo."
+    },
+    "estatePlanning": {
+      "title": "Planificaci\u00f3n Patrimonial",
+      "description": "Proteja su legado y asegure que sus bienes se distribuyan seg\u00fan sus deseos con una planificaci\u00f3n patrimonial integral."
+    },
+    "lifeInsurance": {
+      "title": "Seguro de Vida",
+      "description": "Proteja el futuro de su familia con la cobertura de seguro de vida adecuada, adaptada a sus necesidades y presupuesto."
+    },
+    "wealthManagement": {
+      "title": "Gesti\u00f3n de Patrimonio",
+      "description": "Haga crecer y preserve su patrimonio con estrategias de inversi\u00f3n diversificadas y gesti\u00f3n continua de portafolio."
+    },
+    "businessPlanning": {
+      "title": "Planificaci\u00f3n Empresarial",
+      "description": "Planificaci\u00f3n financiera estrat\u00e9gica para due\u00f1os de negocios \u2014 desde planificaci\u00f3n de sucesi\u00f3n hasta seguros de persona clave."
+    }
+  },
+  "whyUs": {
+    "heading": "Porque el Ma\u00f1ana Importa",
+    "description": "En Lomeli Financial Group, creemos que la seguridad financiera no es un lujo \u2014 es una necesidad. Trabajamos con due\u00f1os de negocios, profesionales y familias para crear estrategias personalizadas que protejan lo que m\u00e1s importa.",
+    "values": {
+      "personalized": {
+        "title": "Enfoque Personalizado",
+        "description": "Cada plan est\u00e1 adaptado a sus metas financieras \u00fanicas y circunstancias de vida."
+      },
+      "bilingual": {
+        "title": "Servicio Biling\u00fce",
+        "description": "Orgullosamente servimos a nuestra comunidad en ingl\u00e9s y espa\u00f1ol."
+      },
+      "trusted": {
+        "title": "Experiencia Confiable",
+        "description": "Profesionales licenciados dedicados a su \u00e9xito financiero a largo plazo."
+      },
+      "comprehensive": {
+        "title": "Soluciones Integrales",
+        "description": "Desde jubilaci\u00f3n hasta planificaci\u00f3n patrimonial, todas sus necesidades financieras bajo un mismo techo."
+      }
+    }
+  },
+  "contact": {
+    "heading": "Hablemos Sobre Su Futuro",
+    "subheading": "Agende una consulta gratuita y d\u00e9 el primer paso hacia la seguridad financiera.",
+    "form": {
+      "name": "Nombre Completo",
+      "namePlaceholder": "Juan P\u00e9rez",
+      "email": "Correo Electr\u00f3nico",
+      "emailPlaceholder": "juan@ejemplo.com",
+      "phone": "N\u00famero de Tel\u00e9fono",
+      "phonePlaceholder": "(956) 555-0123",
+      "service": "Servicio de Inter\u00e9s",
+      "servicePlaceholder": "Seleccione un servicio...",
+      "submit": "Solicitar Consulta",
+      "submitting": "Enviando...",
+      "success": "\u00a1Gracias! Nos pondremos en contacto pronto.",
+      "error": "Algo sali\u00f3 mal. Int\u00e9ntelo de nuevo o ll\u00e1menos directamente."
+    },
+    "validation": {
+      "nameRequired": "El nombre es obligatorio",
+      "emailRequired": "El correo electr\u00f3nico es obligatorio",
+      "emailInvalid": "Por favor ingrese un correo electr\u00f3nico v\u00e1lido",
+      "phoneRequired": "El n\u00famero de tel\u00e9fono es obligatorio",
+      "serviceRequired": "Por favor seleccione un servicio"
+    },
+    "info": {
+      "phone": "Tel\u00e9fono",
+      "email": "Correo",
+      "address": "Direcci\u00f3n",
+      "hours": "Horario",
+      "hoursValue": "Lunes \u2013 Viernes, 9 AM \u2013 5 PM"
+    }
+  },
+  "footer": {
+    "tagline": "Asegurando Su Futuro Financiero",
+    "quickLinks": "Enlaces R\u00e1pidos",
+    "contactInfo": "Informaci\u00f3n de Contacto",
+    "license": "Licencia",
+    "rights": "Todos los derechos reservados."
+  },
+  "splash": {
+    "loading": "Cargando..."
+  }
+}

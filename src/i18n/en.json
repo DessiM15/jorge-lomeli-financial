@@ -1,0 +1,109 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "whyUs": "Why Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline": "Securing Your Financial Future",
+    "subtitle": "Expert guidance for retirement planning, tax strategies, and wealth preservation — tailored to your goals.",
+    "cta": "Schedule a Consultation"
+  },
+  "services": {
+    "heading": "Our Services",
+    "subheading": "Comprehensive financial solutions for every stage of life",
+    "retirement": {
+      "title": "Retirement Planning",
+      "description": "Build a personalized retirement strategy that ensures financial security and peace of mind for your golden years."
+    },
+    "socialSecurity": {
+      "title": "Social Security Evaluation",
+      "description": "Maximize your Social Security benefits with expert analysis of your options and optimal claiming strategies."
+    },
+    "taxStrategies": {
+      "title": "Tax Strategies",
+      "description": "Reduce your tax burden with proactive planning and strategies designed to keep more money in your pocket."
+    },
+    "estatePlanning": {
+      "title": "Estate Planning",
+      "description": "Protect your legacy and ensure your assets are distributed according to your wishes with comprehensive estate planning."
+    },
+    "lifeInsurance": {
+      "title": "Life Insurance",
+      "description": "Safeguard your family's future with the right life insurance coverage tailored to your needs and budget."
+    },
+    "wealthManagement": {
+      "title": "Wealth Management",
+      "description": "Grow and preserve your wealth with diversified investment strategies and ongoing portfolio management."
+    },
+    "businessPlanning": {
+      "title": "Business Planning",
+      "description": "Strategic financial planning for business owners — from succession planning to key person insurance."
+    }
+  },
+  "whyUs": {
+    "heading": "Because Tomorrow Matters",
+    "description": "At Lomeli Financial Group, we believe that financial security isn't a luxury — it's a necessity. We work with business owners, professionals, and families to create customized strategies that protect what matters most.",
+    "values": {
+      "personalized": {
+        "title": "Personalized Approach",
+        "description": "Every plan is tailored to your unique financial goals and life circumstances."
+      },
+      "bilingual": {
+        "title": "Bilingual Service",
+        "description": "We proudly serve our community in both English and Spanish."
+      },
+      "trusted": {
+        "title": "Trusted Expertise",
+        "description": "Licensed professionals dedicated to your long-term financial success."
+      },
+      "comprehensive": {
+        "title": "Comprehensive Solutions",
+        "description": "From retirement to estate planning, all your financial needs under one roof."
+      }
+    }
+  },
+  "contact": {
+    "heading": "Let's Talk About Your Future",
+    "subheading": "Schedule a free consultation and take the first step toward financial security.",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "John Doe",
+      "email": "Email Address",
+      "emailPlaceholder": "john@example.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "(956) 555-0123",
+      "service": "Service of Interest",
+      "servicePlaceholder": "Select a service...",
+      "submit": "Request Consultation",
+      "submitting": "Sending...",
+      "success": "Thank you! We'll be in touch shortly.",
+      "error": "Something went wrong. Please try again or call us directly."
+    },
+    "validation": {
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "phoneRequired": "Phone number is required",
+      "serviceRequired": "Please select a service"
+    },
+    "info": {
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "hours": "Hours",
+      "hoursValue": "Monday – Friday, 9 AM – 5 PM"
+    }
+  },
+  "footer": {
+    "tagline": "Securing Your Financial Future",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Info",
+    "license": "License",
+    "rights": "All rights reserved."
+  },
+  "splash": {
+    "loading": "Loading..."
+  }
+}
