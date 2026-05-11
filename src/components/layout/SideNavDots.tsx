@@ -17,7 +17,7 @@ export function SideNavDots() {
       className="fixed right-6 top-1/2 z-30 hidden -translate-y-1/2 lg:flex"
       aria-label="Section navigation"
     >
-      <div className="flex flex-col items-end gap-5 rounded-full bg-white/10 px-3 py-4 backdrop-blur-sm">
+      <div className="flex flex-col items-end gap-5">
         {SECTIONS.map(({ id, number }) => (
           <button
             key={id}

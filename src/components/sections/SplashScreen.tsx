@@ -21,16 +21,14 @@ export function SplashScreen({ isComplete }: SplashScreenProps) {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, ease: "easeOut" }}
           >
-            <div className="overflow-hidden rounded-xl bg-white px-8 py-4">
-              <div className="relative h-16 w-64 md:h-20 md:w-80">
-                <Image
-                  src="/images/lomeli-logo.png"
-                  alt="Lomeli Financial Group"
-                  fill
-                  className="object-contain"
-                  priority
-                />
-              </div>
+            <div className="relative h-16 w-64 md:h-20 md:w-80">
+              <Image
+                src="/images/lomeli-logo.png"
+                alt="Lomeli Financial Group"
+                fill
+                className="object-contain brightness-0 invert"
+                priority
+              />
             </div>
           </motion.div>
         </motion.div>

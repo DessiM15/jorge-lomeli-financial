@@ -46,13 +46,13 @@ export function Navbar() {
             e.preventDefault();
             handleClick(`#${SECTION_IDS.hero}`);
           }}
-          className="relative h-10 w-40 overflow-hidden rounded-md bg-white px-2 py-1"
+          className="relative h-10 w-40"
         >
           <Image
             src="/images/lomeli-logo.png"
             alt="Lomeli Financial Group"
             fill
-            className="object-contain"
+            className="object-contain brightness-0 invert"
             priority
           />
         </a>
