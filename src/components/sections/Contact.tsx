@@ -37,6 +37,23 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="font-medium text-gray-900">
+                    {t("info.officePhone")}
+                  </h4>
+                  <a
+                    href={`tel:${BRAND.officePhoneRaw}`}
+                    className="mt-1 text-gray-600 transition-colors hover:text-navy"
+                  >
+                    {BRAND.officePhone}
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-navy/10">
+                  <Phone className="h-5 w-5 text-navy" />
+                </div>
+                <div>
+                  <h4 className="font-medium text-gray-900">
                     {t("info.phone")}
                   </h4>
                   <a

@@ -89,7 +89,8 @@
       "serviceRequired": "Por favor seleccione un servicio"
     },
     "info": {
-      "phone": "Tel\u00e9fono",
+      "phone": "Celular",
+      "officePhone": "Tel\u00e9fono de Oficina",
       "email": "Correo",
       "address": "Direcci\u00f3n",
       "hours": "Horario",

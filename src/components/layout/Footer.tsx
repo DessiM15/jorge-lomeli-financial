@@ -59,6 +59,15 @@ export function Footer() {
               <li className="flex items-center gap-3 text-sm text-white/60">
                 <Phone className="h-4 w-4 shrink-0 text-gold" />
                 <a
+                  href={`tel:${BRAND.officePhoneRaw}`}
+                  className="transition-colors hover:text-white"
+                >
+                  {BRAND.officePhone}
+                </a>
+              </li>
+              <li className="flex items-center gap-3 text-sm text-white/60">
+                <Phone className="h-4 w-4 shrink-0 text-gold" />
+                <a
                   href={`tel:${BRAND.phoneRaw}`}
                   className="transition-colors hover:text-white"
                 >

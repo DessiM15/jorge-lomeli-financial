@@ -47,7 +47,7 @@ export function Navbar() {
         <div
           className={cn(
             "items-center justify-between transition-all duration-300",
-            isScrolled ? "hidden lg:hidden" : "flex"
+            isScrolled ? "hidden lg:hidden" : "hidden lg:flex"
           )}
         >
           <a
@@ -56,7 +56,7 @@ export function Navbar() {
               e.preventDefault();
               handleClick(`#${SECTION_IDS.hero}`);
             }}
-            className="relative h-24 w-64 py-4"
+            className="relative h-28 w-72 py-4"
           >
             <Image
               src="/images/lomeli-logo.png"
@@ -114,7 +114,7 @@ export function Navbar() {
               e.preventDefault();
               handleClick(`#${SECTION_IDS.hero}`);
             }}
-            className="relative mx-8 h-14 w-48 shrink-0"
+            className="relative mx-8 h-20 w-56 shrink-0"
           >
             <Image
               src="/images/lomeli-logo.png"
@@ -156,7 +156,7 @@ export function Navbar() {
               e.preventDefault();
               handleClick(`#${SECTION_IDS.hero}`);
             }}
-            className="relative h-14 w-40"
+            className="relative h-16 w-44"
           >
             <Image
               src="/images/lomeli-logo.png"
@@ -195,7 +195,7 @@ export function Navbar() {
               e.preventDefault();
               handleClick(`#${SECTION_IDS.hero}`);
             }}
-            className="relative h-20 w-52"
+            className="relative h-24 w-60"
           >
             <Image
               src="/images/lomeli-logo.png"

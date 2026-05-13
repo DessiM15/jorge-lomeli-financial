@@ -2,8 +2,10 @@ export const BRAND = {
   name: "Lomeli Financial Group",
   phone: "(956) 413-7528",
   phoneRaw: "9564137528",
+  officePhone: "(956) 413-6424",
+  officePhoneRaw: "9564136424",
   email: "jorge@lomelifinancial.com",
-  address: "McAllen, TX",
+  address: "5309 S. McColl Rd. Edinburg, TX 78539",
   license: "2339548",
 } as const;
 
