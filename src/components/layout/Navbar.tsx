@@ -24,9 +24,6 @@ export function Navbar() {
     { label: t("contact"), href: `#${SECTION_IDS.contact}` },
   ];
 
-  const leftLinks = navLinks.slice(0, 2);
-  const rightLinks = navLinks.slice(2);
-
   const handleClick = (href: string) => {
     setMobileOpen(false);
     const el = document.querySelector(href);
@@ -43,13 +40,8 @@ export function Navbar() {
       )}
     >
       <nav className="mx-auto max-w-7xl px-6 transition-all duration-300">
-        {/* Default layout: logo left, links right */}
-        <div
-          className={cn(
-            "items-center justify-between transition-all duration-300",
-            isScrolled ? "hidden lg:hidden" : "hidden lg:flex"
-          )}
-        >
+        {/* Desktop layout: logo left, links right */}
+        <div className="hidden items-center justify-between transition-all duration-300 lg:flex">
           <a
             href={`#${SECTION_IDS.hero}`}
             onClick={(e) => {
@@ -85,110 +77,8 @@ export function Navbar() {
           </div>
         </div>
 
-        {/* Scrolled layout: links left, logo center, links right */}
-        <div
-          className={cn(
-            "items-center justify-center transition-all duration-300",
-            isScrolled ? "hidden lg:flex" : "hidden"
-          )}
-        >
-          <div className="flex flex-1 items-center justify-end gap-8">
-            {leftLinks.map(({ label, href }) => (
-              <a
-                key={href}
-                href={href}
-                onClick={(e) => {
-                  e.preventDefault();
-                  handleClick(href);
-                }}
-                className="text-sm font-medium text-white/80 transition-colors hover:text-white"
-              >
-                {label}
-              </a>
-            ))}
-          </div>
-
-          <a
-            href={`#${SECTION_IDS.hero}`}
-            onClick={(e) => {
-              e.preventDefault();
-              handleClick(`#${SECTION_IDS.hero}`);
-            }}
-            className="relative mx-8 h-20 w-56 shrink-0"
-          >
-            <Image
-              src="/images/lomeli-logo.png"
-              alt="Lomeli Financial Group"
-              fill
-              className="object-contain brightness-0 invert"
-              priority
-            />
-          </a>
-
-          <div className="flex flex-1 items-center gap-8">
-            {rightLinks.map(({ label, href }) => (
-              <a
-                key={href}
-                href={href}
-                onClick={(e) => {
-                  e.preventDefault();
-                  handleClick(href);
-                }}
-                className="text-sm font-medium text-white/80 transition-colors hover:text-white"
-              >
-                {label}
-              </a>
-            ))}
-            <LanguageToggle />
-          </div>
-        </div>
-
-        {/* Mobile: always logo left, hamburger right */}
-        <div
-          className={cn(
-            "flex items-center justify-between py-3 lg:hidden",
-            isScrolled ? "flex" : "hidden"
-          )}
-        >
-          <a
-            href={`#${SECTION_IDS.hero}`}
-            onClick={(e) => {
-              e.preventDefault();
-              handleClick(`#${SECTION_IDS.hero}`);
-            }}
-            className="relative h-16 w-44"
-          >
-            <Image
-              src="/images/lomeli-logo.png"
-              alt="Lomeli Financial Group"
-              fill
-              className="object-contain brightness-0 invert"
-              priority
-            />
-          </a>
-          <div className="flex items-center gap-3">
-            <LanguageToggle />
-            <button
-              onClick={() => setMobileOpen(!mobileOpen)}
-              className="text-white"
-              aria-label="Toggle menu"
-            >
-              {mobileOpen ? (
-                <X className="h-6 w-6" />
-              ) : (
-                <Menu className="h-6 w-6" />
-              )}
-            </button>
-          </div>
-        </div>
-
-        {/* Mobile: not scrolled */}
-        <div
-          className={cn(
-            "items-center justify-between py-3 lg:hidden",
-            isScrolled ? "hidden" : "flex"
-          )}
-        >
+        {/* Mobile: logo left, hamburger right */}
+        <div className="flex items-center justify-between py-3 lg:hidden">
           <a
             href={`#${SECTION_IDS.hero}`}
             onClick={(e) => {
